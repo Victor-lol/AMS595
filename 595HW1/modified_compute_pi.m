@@ -1,4 +1,5 @@
 
+% initialize variable
 precision_levels = [2, 3, 4, 5];
 thresholds = [0.01, 0.001, 0.0001, 0.00001];
 iterations_needed = zeros(size(precision_levels));

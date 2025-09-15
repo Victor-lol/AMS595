@@ -53,7 +53,7 @@ function pi_est = compute_pi(precision_level)
         pi_est_old = pi_est_curr;
         
         % draw graph every 200 iterations
-        if mod(iter, 10000) == 0
+        if mod(iter, 200) == 0
             drawnow;
         end
     end
